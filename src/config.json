@@ -1,0 +1,15 @@
+{
+    
+    "watchOnly": false,
+    
+    "uni": {
+        "factory": "TQDj4ecu76UdhUHXtRRRUx3SUZxrMHRkQr",
+        "router": "TJgLhW8xQ81R92a2tSmQdS4LwzqDEBbYi2"
+    },
+    "sushi": {
+        "factory": "TLzE74DtFAfJgZvCww8ru1qVBCyuSVFRVx",
+        "router": "TFaJHqVRbgEsN71p5Au3VKpDfPTNxtdwot"
+    },
+    "WTRX": "TSsj3nsEWiYm81MGzCByjEtGVygh5sRBqd",
+    "ICR": "TEPJ6CETE6vqERZ34YjPjqVpHdx143AyQp"
+}

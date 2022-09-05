@@ -1,0 +1,34 @@
+{
+  "name": "Bot",
+  "description": "Tron Bot",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@types/react": "^17.0.39",
+    "bignumber.js": "^9.0.2",
+    "qs": "^6.10.3",
+    "react": "^17.0.2",
+    "tronweb": "^4.1.0",
+    "typescript": "^4.6.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

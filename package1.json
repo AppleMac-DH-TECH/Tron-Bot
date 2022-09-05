@@ -1,0 +1,60 @@
+{
+  "name": "Bot",
+  "description": "Tron Bot",
+  "homepage": ".",
+  "private": true,
+  "engines": {
+    "node": "14.18.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/lodash.flatmap": "^4.5.6",
+    "@types/luxon": "^2.0.4",
+    "@types/multicodec": "^2.1.0",
+    "@types/node": "^16.9.2",
+    "@types/qs": "^6.9.2",
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-redux": "^7.1.8",
+    "@types/react-router-dom": "^5.0.0",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "@types/react-window": "^1.8.2",
+    "@types/rebass": "^4.0.5",
+    "@types/styled-components": "^5.1.0",
+    "@types/testing-library__cypress": "^5.0.5",
+    "@types/wcag-contrast": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "cross-env": "^7.0.2",
+    "ethers": "^5.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.8",
+    "serve": "^12.0.1",
+    "start-server-and-test": "^1.11.0",
+    "typescript": "^4.4.3",
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "react-scripts": "^4.0.3"
+  }
+}
